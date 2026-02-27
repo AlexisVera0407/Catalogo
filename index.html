@@ -88,7 +88,7 @@
         
         .view-more { font-size: 12px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; }
 
-        /* Estilos del Modal */
+        /* Modal */
         .modal {
             display: none;
             position: fixed;
@@ -158,7 +158,7 @@
 <div class="container">
     <div class="product-grid">
 
-        <div class="product-card" onclick="openModal('Airpods Pro 2', 'Airpod git.png', '$25.000', 'Cancelación activa de ruido de última generación. Modo ambiente adaptativo para escuchar lo que te rodea. Audio espacial personalizado con seguimiento dinámico de la cabeza. Incluye estuche de carga MagSafe con altavoz y enganche para correa.')">
+        <div class="product-card" onclick="openModal('Airpods Pro 2', 'Airpod git.png', '$25.000', 'Cancelación activa de ruido de última generación. Modo ambiente adaptativo. Audio espacial personalizado. Incluye estuche de carga MagSafe.')">
             <div class="img-container">
                 <img src="Airpod git.png" alt="Airpods Pro 2">
             </div>
@@ -170,7 +170,7 @@
             </div>
         </div>
 
-        <div class="product-card" onclick="openModal('Airpods Max', 'Airpods max.png', '$40.000', 'Diseño circumaural que combina un ajuste a medida con una acústica excepcional. Transductor dinámico diseñado por Apple para un sonido de alta fidelidad. Cancelación de ruido líder en la industria y audio espacial personalizado.')">
+        <div class="product-card" onclick="openModal('Airpods Max', 'Airpods max.png', '$40.000', 'Sonido de alta fidelidad. Cancelación activa de ruido y audio espacial. Diseño elegante con diadema de malla tejida y almohadillas de espuma viscoelástica.')">
             <div class="img-container">
                 <img src="Airpods max.png" alt="Airpods Max">
             </div>
@@ -180,21 +180,8 @@
                 <div class="product-price">$40.000</div>
                 <span class="view-more">Ver detalles</span>
             </div>
-        </div>
 
-        <div class="product-card" onclick="openModal('Cabezal 20W', 'Cabezal.png', '$8.000', 'El adaptador de corriente USB-C de 20W de Apple ofrece una carga rápida y eficiente. Es ideal para cargar tu iPhone 8 o posterior a la mitad de su capacidad en unos 30 minutos.')">
-            <div class="img-container">
-                <img src="Cabezal.png" alt="Cabezal">
-            </div>
-            <div class="product-info">
-                <h2>Cabezal Iphone Tipo C 20W</h2>
-                <div class="divider"></div>
-                <div class="product-price">$8.000</div>
-                <span class="view-more">Ver detalles</span>
-            </div>
-        </div>
-
-        <div class="product-card" onclick="openModal('Cable C a Lightning', 'Cable C a Lig.png', '$4.000', 'Conecta tu iPhone, iPad o iPod con conector Lightning a tu Mac o iPad con puerto USB-C para cargarlo o sincronizarlo de forma rápida y segura.')">
+        </div><div class="product-card" onclick="openModal('Cable C a Lightning', 'Cable C a Lig.png', '$4.000', 'Conecta tu iPhone, iPad o iPod con conector Lightning a tu Mac o iPad con puerto USB-C para cargarlo o sincronizarlo de forma rápida y segura.')">
             <div class="img-container">
                 <img src="Cable C a Lig.png" alt="Cable C a Lig">
             </div>
@@ -214,6 +201,54 @@
                 <h2>Cable Iphone Tipo C a C (1m)</h2>
                 <div class="divider"></div>
                 <div class="product-price">$4.000</div>
+                <span class="view-more">Ver detalles</span>
+            </div>
+        </div>
+
+        <div class="product-card" onclick="openModal('Combo Carga Rápida Lightning', 'combo-lightning.png', '$10.000', 'El pack de carga ideal. Incluye Cabezal USB-C de 20W + Cable USB-C a Lightning de 1 metro. Carga tu iPhone del 0 al 50% en solo 30 minutos.')">
+            <div class="img-container">
+                <img src="combo-lightning.png" alt="Combo Lightning">
+            </div>
+            <div class="product-info">
+                <h2>Combo: Cabezal Iphone Tipo C 20W + Cable Tipo C a Lightning</h2>
+                <div class="divider"></div>
+                <div class="product-price">$10.000</div>
+                <span class="view-more">Ver detalles</span>
+            </div>
+        </div>
+
+        <div class="product-card" onclick="openModal('Combo Carga Rápida USB-C', 'combo-c.png', '$10.000', 'Combo de alto rendimiento. Incluye Cabezal USB-C de 20W + Cable USB-C a USB-C de 1 metro. Compatible con iPhone 15/16, iPads y MacBook Air.')">
+            <div class="img-container">
+                <img src="combo-c.png" alt="Combo USB-C">
+            </div>
+            <div class="product-info">
+                <h2>Combo: Cabezal Iphone Tipo C 20W + Cable Tipo C a C</h2>
+                <div class="divider"></div>
+                <div class="product-price">$10.000</div>
+                <span class="view-more">Ver detalles</span>
+            </div>
+        </div>
+
+        <div class="product-card" onclick="openModal('Magsafe Battery Pack', 'battery-pack.png', '$30.000', 'Batería externa con tecnología MagSafe. Se acopla a tu iPhone como por arte de magia. Diseño compacto e intuitivo que facilita la carga en cualquier lugar.')">
+            <div class="img-container">
+                <img src="battery-pack.png" alt="Battery Pack">
+            </div>
+            <div class="product-info">
+                <h2>Battery Pack Magsafe</h2>
+                <div class="divider"></div>
+                <div class="product-price">$30.000</div>
+                <span class="view-more">Ver detalles</span>
+            </div>
+        </div>
+
+        <div class="product-card" onclick="openModal('Cabezal 20W', 'Cabezal.png', '$8.000', 'Adaptador de corriente USB-C de 20W. Ofrece una carga rápida y eficiente en casa, en la oficina o en cualquier lugar.')">
+            <div class="img-container">
+                <img src="Cabezal.png" alt="Cabezal">
+            </div>
+            <div class="product-info">
+                <h2>Cabezal Iphone Tipo C 20W</h2>
+                <div class="divider"></div>
+                <div class="product-price">$8.000</div>
                 <span class="view-more">Ver detalles</span>
             </div>
         </div>
@@ -260,4 +295,3 @@
 
 </body>
 </html>
-
